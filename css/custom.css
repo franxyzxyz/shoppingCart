@@ -14,8 +14,13 @@ section div{
 }
 .itemRow *{
 	display:inline-block;
-	width:19%;
 	vertical-align:top;
+}
+.itemRow div:not(.cancelItem){
+	width:20%;
+}
+.cancelItem{
+	width:120px;
 }
 #overallPrice{
 	font-weight:bold;
@@ -24,11 +29,11 @@ section div{
 .quantity *{
 	margin-left:10px;
 }
+input[type=text]{
+	width:100% !important;
+}
 input.qtyInput{
 	width:50px !important;
-}
-input[type=text]{
-	width:100%;
 }
 button {
 	width:100px !important;
