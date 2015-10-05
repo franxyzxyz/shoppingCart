@@ -8,13 +8,30 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/application.js"></script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-    
+    <header><h1>THE CART</h1></header>
+    <section>
+      <div class="itemRow">
+        <div class="name"></div>
+        <div class="unitPrice"></div>
+        <div class="quantity"><!-- QTY<input type="text" class="qtyInput"/><button class="delete">DELETE</button> --></div>
+        <div class="price"></div>
+        <div class="cancelItem"></div>
+      </div>
+    </section>
+    <section id="create">
+      <div class="itemRow">
+        <div class="name"><input type="text" id="newName" placeholder="New Item"></div>
+        <div class="unitPrice"><input type="text" id="newUnitPrice" placeholder="HKD$"></div>
+        <div><button id="createNew">CREATE</button></div>
+        <div class="price" id="overallPrice">Total: $0.00</div>
+      </div>
+    </section>
   </body>
 </html>

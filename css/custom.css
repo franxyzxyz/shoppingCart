@@ -1,0 +1,35 @@
+body > *{
+	width:80%;
+	margin:0 auto;
+}
+header{
+	background:#ccc;
+}
+section{
+	width:80%;
+	margin:10px auto;
+}
+section div{
+	background:white;
+}
+.itemRow *{
+	display:inline-block;
+	width:19%;
+	vertical-align:top;
+}
+#overallPrice{
+	font-weight:bold;
+	font-size:20px;
+}
+.quantity *{
+	margin-left:10px;
+}
+input.qtyInput{
+	width:50px !important;
+}
+input[type=text]{
+	width:100%;
+}
+button {
+	width:100px !important;
+}
